@@ -1,99 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kelompok 4 Praktikum Coding Pertemuan 1</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website With Login & Registration | Codehal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+        <!-- box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-<body>
+        <!-- custom css-->
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <header>
-        <h2 class="logo">Logo</h2>
-        <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-            <button Class="btnLogin-popup">Login</button>
-        </nav>
-    </header>
+    <body>
 
-    <div class="wrapper">
-        <span class="icon-close">
-            <ion-icon name="close"></ion-icon>
-        </span>
+        <!-- header design-->
+         <header class="header">
+                <a href="#contact"></a>
+                <a href="#" class="logo">Praktikum Coding</a>
+                <i class='bx bx-menu' id="menu-icon"></i>
 
-        <div class="form-box login">
-            <h2>Login</h2>
-            <form action="../index.html">
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label>Email</label>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#hobi">Hobi</a>
+                <a href="#portofolio">Portofolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+         </header>
+         <!--home section design-->
+         <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello Everyone!!</h3>
+                <h1>We Are From</h1>
+                <h3>Group  4 <span class="multiple-text">Three Muse</span></h3>
+                <p>This Is The Main Page Of Our Website</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/jihanfllhtgrsy?igsh=MWFwdDN3bjF5cTN5bA==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.instagram.com/iniiiiiidesiiiiiiiii?igsh=MTFjcG52aXNpbTkzdg==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.instagram.com/geaintn_?igsh=MXd1NzFwcnJ5eWliMg==" target="_blank"><i class='bx bxl-instagram'></i></a>
                 </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox"> Remember me</label>
-                    <a href="#">Forgot Password</a>
-                </div>
-                <a href="index.html"><button type="submit" class="btn"> Login</button></a>
-                <div class="login-register">
-                    <p>Don't a have account? <a href="#" class="register-link">Register</a></p>
-                </div>
-            </form>
-        </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="kmi12.jpg" alt="gambar 1">
+            </div>
+         </section>
+         <!--about section design-->
+         <section class="about" id="about">
+            <div class="about-img">
+                <img src="kami3.jpg" alt="gambar 2">
+            </div>
 
-        <div class="form-box register">
-            <h2>Registration</h2>
+            <div class="about-content">
+                <h2 class="heading">About <span>Us</span></h2>
+                <h3>A Students</h3>
+                <p>
+                    Let me introduce ourself, we're from group 4 
+                    three muse, the member of we're group is a Jihan Fiolalhita Gresiya (F1A024011),
+                    Gea Intan Permatasari (F1A024022), and Desi Angraini Puspita Sari (F1A024005),
+                    We are students of class of 2024 from the S1 Mathematics study program, 
+                    Faculty of Mathematics and Natural Sciences, University of Bengkulu
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+         </section>
+
+         <!--hobi section design -->
+
+         <section class="Hobi" id="hobi">
+            <h2 class="heading"> Our <span>Hobi</span></h2>
+            <div class="hobi-container">
+
+            <div class="hobi-box">
+                <i class= ></i>
+                <h3>Hobi Jihan</h3>
+                <p>making crafts and watching drama</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            
+                <div class="hobi-box">
+                    <i class= ></i>                
+                    <h3>Hobi Desi</h3>
+                <p>play volleyball and hiking </p>
+                <a href="#" class="btn">read more</a>
+                </div>
+            
+                <div class="hobi-box">
+                    <i class=></i>                    
+                    <h3>Hobi Gea</h3>
+                <p>baking, read a novel, listening a music</p>
+                <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+         </section>
+
+         <!-- Portofolio section design -->
+          <section class="portofolio" id="portofolio">
+            <h2 class="heading">Daily <span>Activities</span></h2>
+            <div class="portofolio-container">
+                <div class="portofolio-box">
+                    <img src="kmi7.jpg" alt="gambar 3">
+                    <div class="portofolio-layer">
+                        <h4>Ngampus </h4>
+                        <p>Activities carrier out for self development</p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                    </div>
+
+                    <div class="portofolio-box">
+                        <img src="kmi11.jpg" alt="gambar 3">
+                        <div class="portofolio-layer">
+                            <h4>Nongkrong </h4>
+                            <p>activeties done to feel a free time</p>
+                            <a href="#"><i class='bx bx-link'></i></a>
+                        </div>
+                        </div>
+
+                        <div class="portofolio-box">
+                            <img src="kmi8.jpg" alt="gambar 3">
+                            <div class="portofolio-layer">
+                                <h4>Ngelaprak </h4>
+                                <p>Activities carrier out to improve skills in leactures</p>
+                                <a href="#"><i class='bx bx-link'></i></a>
+                            </div>
+                            </div>
+
+                </div> 
+
+          </section>
+
+          <!-- contact section sesign -->
+          <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Kami</span></h2>
             <form action="#">
                 <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="person"></ion-icon>
-                    </span>
-                    <input type="text" required>
-                    <label>Username</label>
+                    <input type="text" placeholder="Nama Lengkap">
+                    <input type="text" placeholder="Email Addreas">
                 </div>
+
                 <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label>Email</label>
+                    <input type="number" placeholder="Nomor Telepon">
+                    <input type="text" placeholder="Nama Email">
                 </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox"> I agree to the terms & conditions</label>
-                </div>
-                <button type="submit" class="btn"> Register</button>
-                <div class="login-register">
-                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
-                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Pesanmu"></textarea>
+                <input type="submit" value="Send me" class="btn">
             </form>
-        </div>
-    </div>
 
 
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+          </section>
 
+          <!-- bagian footer -->
+           <footer class="footer">
+            <div class="footer-text">
+                <p>Copyrigt &copy; 2025 by kelompok 4.</p>
+            </div>
+
+            <div class="footer-icontop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+
+            </div>
+           </footer>
+         <script src="js/script.js"></script>
+         <!-- script scroll  -->
+         <script src="https://unpkg.com/scrollreveal"></script>
+           <!-- github -->
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+         
+    </body>
 </html>
